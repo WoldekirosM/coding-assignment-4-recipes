@@ -23,10 +23,11 @@ main {
     padding: 20px;
 }
 
-/* RECIPE CARD (HOME PAGE) */
+/* RECIPE CARDS */
 .recipes {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .recipe-card {
@@ -39,14 +40,12 @@ main {
 
 .recipe-card img {
     width: 200px;
-    height: auto;
 }
 
-/* RECIPE PAGE LAYOUT */
+/* RECIPE PAGE */
 .recipe-page {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     gap: 40px;
 }
 
