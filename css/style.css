@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eeeeee;
     margin: 0;
-    padding: 0;
 }
 
 header {
@@ -41,12 +40,11 @@ main {
 .recipes {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .recipe-card {
     background-color: white;
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
     padding: 20px;
     width: 250px;
     text-align: center;
@@ -60,7 +58,6 @@ main {
 .recipe-page {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
 }
 
 .recipe-text {
@@ -70,12 +67,11 @@ main {
 .recipe-text ul,
 .recipe-text ol {
     background-color: white;
-    padding: 20px 40px;
+    padding: 20px;
 }
 
 figure {
     width: 40%;
-    text-align: center;
 }
 
 figure img {
@@ -83,23 +79,8 @@ figure img {
     border: 4px solid black;
 }
 
-fieldset {
-    border: 1px solid gray;
-    margin-bottom: 30px;
-    padding: 15px;
-}
-
-input {
-    margin: 5px;
-}
-
 footer {
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 20px;
     text-align: right;
-    background-color: #eeeeee;
-}
-
-footer a {
-    color: purple;
 }
